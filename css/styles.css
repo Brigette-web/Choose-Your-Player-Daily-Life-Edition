@@ -1,0 +1,55 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-image: url('game-background/game-background.jpg'); /* Ensure the image is in the root folder */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center "Player Selection" */
+h1 {
+    font-size: 36px;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+}
+
+/* Player selection container */
+.player-container {
+    color: black;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+/* Player box design */
+.player-box {
+    background: rgba(0, 0, 0, 0.7); /* Dark transparent box */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    width: 220px;
+    text-align: center;
+}
+
+/* Style for player selection buttons */
+a {
+    display: inline-block;
+    background: #ffcc00; /* Game-like button color */
+    color: black;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    background: #ff9900;
+    transform: scale(1.1);
+}
+
