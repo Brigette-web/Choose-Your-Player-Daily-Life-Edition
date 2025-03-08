@@ -1,6 +1,53 @@
 .centered-image {
     display: block;  /* Makes sure it behaves like a block element */
     margin: 0 auto;  /* Centers the image horizontally */
-    max-width: 20%;  /* Adjusts the size (30% of the screen width) */
+    max-width: 50%;  /* Adjusts the size (30% of the screen width) */
     height: auto;  /* Keeps the aspect ratio */
+}
+
+.content-container {
+    display: flex; /* Enables flexbox for side-by-side layout */
+    align-items: center; /* Centers items vertically */
+    justify-content: center; /* Centers the whole container */
+    gap: 30px; /* Adds space between image and text */
+    text-align: left; /* Ensures text is aligned properly */
+    max-width: 80%; /* Adjust the width of the container */
+    margin: auto; /* Centers the container */
+}
+
+.daily-life-image {
+    max-width: 350px; /* Adjust image size */
+    width: 100%; /* Ensures responsiveness */
+}
+
+.daily-life-text {
+    max-width: 250px; /* Controls text width to avoid stretching */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: rgb(255, 221, 226);
+}
+
+/* Background Styles */
+.player1-background {
+    background-color: rgba(72, 43, 43, 0.684);
+}
+
+.player2-background {
+    background-color: rgb(245, 211, 217);
+}
+
+.player3-background {
+    background-color: rgb(139, 57, 57);
+}
+
+.player4-background {
+    background-color: lightblue;
+}
+
+.player5-background {
+    background-color: rgb(136, 96, 136);
 }
